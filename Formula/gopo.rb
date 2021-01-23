@@ -5,20 +5,20 @@
 class Gopo < Formula
   desc "Gopo"
   homepage ""
-  version "0.1.6"
+  version "0.1.7"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.6/gopo_Darwin_x86_64.tar.gz"
-    sha256 "96bf1c8e7fef1f251f327cea97c1ec315f410c4561e5552f1b949ab5771b02cc"
+    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.7/gopo_Darwin_x86_64.tar.gz"
+    sha256 "104eefcd29846c1dc20c6b1e120219e86dab520595eec36071d82d24626f658d"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.6/gopo_Linux_x86_64.tar.gz"
-    sha256 "f7a395dfe4edec4a8329dfdc1e8765511bdd4a676060d60e27b235f7765d8624"
+    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.7/gopo_Linux_x86_64.tar.gz"
+    sha256 "76e36b567df2fcb8f2b435da6b0deea99632804faac47bcebd789eb75477bfd4"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.6/gopo_Linux_arm64.tar.gz"
-    sha256 "fbd0c2e799e99dde14f452078d63fb051877bc9e2e3db6eb9c867a6004b268a9"
+    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.7/gopo_Linux_arm64.tar.gz"
+    sha256 "6d4036289b06db8ffebeae22d2f50f952f0204fd0bb7681c7263824da10ffc44"
   end
 
   def install
