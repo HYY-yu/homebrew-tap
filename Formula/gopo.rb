@@ -5,16 +5,16 @@
 class Gopo < Formula
   desc "Gopo"
   homepage ""
-  version "0.1.8"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.8/gopo_Darwin_x86_64.tar.gz"
-    sha256 "551e1a37b34ef38e0c3295a390ed1009c6443b5eda6756ad0f2adb96aebcc7f2"
+    url "https://github.com/HYY-yu/gopo/releases/download/v0.2.0/gopo_Darwin_x86_64.tar.gz"
+    sha256 "b4a30b54d256b0e3f43b9a7be398695514bc34b6a440be0f0d3b28c88db8a5a4"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/HYY-yu/gopo/releases/download/v0.1.8/gopo_Linux_x86_64.tar.gz"
-    sha256 "0e20f4848d719cd118a62652b96a9461bb308373a03773aa49522a3139d80d33"
+    url "https://github.com/HYY-yu/gopo/releases/download/v0.2.0/gopo_Linux_x86_64.tar.gz"
+    sha256 "a8dc0148f519c40c1b778cc82cb4d6ce45afc7c4c2a3819042d34bf9ce301918"
   end
 
   def install
